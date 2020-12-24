@@ -1,14 +1,20 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
-/dist
-/tmp
+/Frontend/e2e
+/Frontend/dist
+/Frontend/tmp
 /out-tsc
 # Only exists if Bazel was run
-/bazel-out
+/Frontend/bazel-out
+/Backend/KetoDietFatBurner/.vs
+/Backend/KetoDietFatBurner/KetoDietFatBurner/bin
+/Backend/KetoDietFatBurner/KetoDietFatBurner/obj
+
+
 
 # dependencies
-/node_modules
+/Frontend/node_modules
 
 # profiling files
 chrome-profiler-events*.json
@@ -32,14 +38,14 @@ speed-measure-plugin*.json
 .history/*
 
 # misc
-/.sass-cache
-/connect.lock
-/coverage
-/libpeerconnection.log
-npm-debug.log
-yarn-error.log
-testem.log
-/typings
+/Frontend/.sass-cache
+/Frontend/connect.lock
+/Frontend/coverage
+/Frontend/libpeerconnection.log
+/Frontendnpm-debug.log
+/Frontendyarn-error.log
+/Frontendtestem.log
+/Frontend/typings
 
 # System Files
 .DS_Store
