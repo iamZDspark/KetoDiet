@@ -1,0 +1,14 @@
+<p>Ingredients</p>
+<table style="width:100%">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Category</th>
+        <th>DietType</th>
+    </tr>
+    <tr *ngFor="let ingredient of ingredients; let i=index">
+        <td>{{i + 1}}</td>
+        <td>{{ingredient.name}}</td>
+        <td>{{ingredient.category}}</td>
+        <td>{{ingredient.type[0].type}}</td>
+</table>

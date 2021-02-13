@@ -1,0 +1,13 @@
+.title-class {
+    background-color: rebeccapurple;
+    color: yellow;
+    text-align: center;
+    border-radius: 20px;
+    width: 40%;
+    margin-left: 30%;
+}
+
+.router-outlet-class {
+    background-color: #CBCE91FF;
+    height: 100vh;
+}

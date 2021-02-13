@@ -1,0 +1,11 @@
+<p>Meal Type</p>
+<table style="width:100%">
+    <tr>
+        <th>Id</th>
+        <th>Type</th>
+    </tr>
+    <tr *ngFor="let type of mealtype; let i=index">
+        <td>{{i + 1}}</td>
+        <td>{{type.type}}</td>
+    </tr>
+</table>

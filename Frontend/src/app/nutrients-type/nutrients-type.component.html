@@ -1,0 +1,11 @@
+<p>Nutrients Type</p>
+<table style="width:100%">
+    <tr>
+        <th>Id</th>
+        <th>Type</th>
+    </tr>
+    <tr *ngFor="let nutrient of nutrientstype; let i=index">
+        <td>{{i + 1}}</td>
+        <td>{{nutrient.type}}</td>
+    </tr>
+</table>

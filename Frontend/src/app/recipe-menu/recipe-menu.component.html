@@ -1,0 +1,17 @@
+<p>
+    Recipe Menu
+</p>
+<table style="width:100%">
+    <tr>
+        <th>Id</th>
+        <th>MealType</th>
+        <th>Ingredients</th>
+        <th>Method</th>
+    </tr>
+    <tr *ngFor="let menu of recipemenu; let i=index">
+        <td>{{i + 1}}</td>
+        <td>{{menu.meal[0].type}}</td>
+        <td>{{menu.ingredient[0].category}}</td>
+        <td>{{menu.method}}</td>
+    </tr>
+</table>

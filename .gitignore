@@ -1,0 +1,52 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/Frontend/e2e
+/Frontend/dist
+/Frontend/tmp
+/out-tsc
+# Only exists if Bazel was run
+/Frontend/bazel-out
+/Backend/KetoDietFatBurner/.vs
+/Backend/KetoDietFatBurner/KetoDietFatBurner/bin
+/Backend/KetoDietFatBurner/KetoDietFatBurner/obj
+
+
+
+# dependencies
+/Frontend/node_modules
+
+# profiling files
+chrome-profiler-events*.json
+speed-measure-plugin*.json
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# misc
+/Frontend/.sass-cache
+/Frontend/connect.lock
+/Frontend/coverage
+/Frontend/libpeerconnection.log
+/Frontendnpm-debug.log
+/Frontendyarn-error.log
+/Frontendtestem.log
+/Frontend/typings
+
+# System Files
+.DS_Store
+Thumbs.db

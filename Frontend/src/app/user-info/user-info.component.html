@@ -1,0 +1,21 @@
+<p>User Info</p>
+<table style="width:100%">
+    <tr>
+        <th>Id</th>
+        <th>Username</th>
+        <th>Weight</th>
+        <th>Height</th>
+        <th>DietType</th>
+        <th>AssignDietPlan</th>
+        <!-- <th>DietPlan</th> -->
+    </tr>
+    <tr *ngFor="let info of userinfo; let i=index">
+        <td>{{i + 1}}</td>
+        <td>{{info.name[0].username}}</td>
+        <td>{{info.weight}}</td>
+        <td>{{info.height}}</td>
+        <td>{{info.type[0].type}}</td>
+        <td>{{info.assignDietPlan}}</td>
+        <!-- <td>{{info.dietPlan}}</td> -->
+    </tr>
+</table>
